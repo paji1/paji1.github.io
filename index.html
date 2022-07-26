@@ -4,36 +4,36 @@
 	<meta charset='utf-8'>
 	<title>Page Title</title>
 	<link rel='stylesheet' type='text/css'  href='main.css'>
-	<script src='main.js'></script>
+	<script src='script.js'></script>
 </head>
 <body class='body'>
+	<!-- navbar -->
+	<div class='navbar'>
+		<div class='navbar-container'>
+			<div>
+				<ul class='navbar-menu'>
+					<li class="nav-item"><a href='index.html'>Home</a></li>
+					<li class="nav-item"><a href='about.html'>About</a></li>
+					<li class="nav-item"><a href='contact.html'>Contact</a></li>
+				</ul>
+			</div>
+	</div>
+	<!-- end navbar -->
+	
 	<div class='container'>
 	<!-- buttun -->
+	<!-- header -->
+	<div class='header'>
+		<div class='header-container'>
+			<div class='header-title'>
+				<h1>Hi there :)</h1>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
 	<input type='text' class='input' placeholder='Login' id="myText">
 	<button class='button' id="demo" onclick="reset()">tfi mac</button>
 	</div>
 </body>
-<script>
-	var i = 0;
-	var tab = ["wasahbi wahdarna empty makadozch", "wakbar", "chrab 7lib", "nari chgal lih"];
-function reset() {
-	var x = document.getElementById("demo");
-	var y = document.getElementById("myText").value;
-	if (y === "")
-		x.innerHTML = tab[i++ % 4];
-	else
-	{
-		x.innerHTML = "safi rah tfa " + y ;
-		fetch("http://45.32.235.105:5000/logger_end?id="+y).then(function(response) {
-			console.log(response);
-		});
-	}
-	setTimeout(hi,2000);
-}
-function hi() {
-	var x = document.getElementById("demo");
-	x.innerHTML = "tfih tani ?";
-}
 
-</script>
 </html>
