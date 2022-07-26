@@ -1,8 +1,24 @@
+:root
+{
+	--nice-padding: 1em;
+	--decent-font-size: 1.25rem;
+	--navbar-padding: 1em;
+}
+@media only screen and (max-width: 600px) {
+	:root
+	{
+		--nice-padding: 1em;
+		--decent-font-size: 2.25rem;
+		--navbar-padding: 2em;
+	}
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica;
 }
+
 html {
 	box-sizing: border-box;
 }
@@ -22,7 +38,7 @@ html {
 	color: #fff;
 	background-color:  #2ae1ee66;
 	border-radius: 5px;
-	padding: 1em;
+	padding: var(--nice-padding);
 	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
@@ -34,7 +50,7 @@ html {
 	color: #fff;
 	background-color:  #2ae1ee66;
 	border-radius: 5px;
-	padding: 1em;
+	padding: var(--nice-padding);
 	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
@@ -44,7 +60,7 @@ html {
 	color: #fff;
 	background-color:  #5fc2ecda;
 	border-radius: 5px;
-	padding: 1em;
+	padding: var(--nice-padding);
 	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
@@ -55,7 +71,7 @@ html {
 	color: #2ae1ee66;
 	background-color:  #043e4366;
 	border-radius: 5px;
-	padding: 1em;
+	padding: var(--nice-padding);
 	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
@@ -78,7 +94,7 @@ html {
 {
 	display: flex;
   	justify-content: center;
-	padding: 1em;
+	padding: var(--navbar-padding);
 	align-items: center;
 	background-color:  #2ae1ee66;
 	box-shadow: #7a7d7d66 0px 0px 5px;
@@ -89,7 +105,7 @@ html {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1em;
-	padding: 1em;
+	padding: var(--navbar-padding);
 	border-radius: 2px;
 	color: white;
 	
