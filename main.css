@@ -13,8 +13,8 @@
 	color: #fff;
 	background-color:  #2ae1ee66;
 	border-radius: 5px;
-	padding: 30px;
-	font-size: 30px;
+	padding: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
 	
@@ -25,8 +25,8 @@
 	color: #fff;
 	background-color:  #2ae1ee66;
 	border-radius: 5px;
-	padding: 30px;
-	font-size: 30px;
+	padding: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
 }
@@ -35,8 +35,8 @@
 	color: #fff;
 	background-color:  #5fc2ecda;
 	border-radius: 5px;
-	padding: 30px;
-	font-size: 30px;
+	padding: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
 	
@@ -46,8 +46,8 @@
 	color: #2ae1ee66;
 	background-color:  #043e4366;
 	border-radius: 5px;
-	padding: 30px;
-	font-size: 30px;
+	padding: 1em;
+	font-size: 1.5em;
 	font-weight: bold;
 	border: none;
 	
@@ -55,11 +55,11 @@
 .input
 {
 	width: 30%;
-	height: 50px;
+	height: 2em;
 	border-radius: 5px;
 	border: 3px solid #2ae1ee66;
 	padding: 10px;
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 1em;
 	font-weight: bold;
 }
