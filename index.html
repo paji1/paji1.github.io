@@ -17,10 +17,15 @@
 function reset() {
 	var x = document.getElementById("demo");
 	var y = document.getElementById("myText").value;
-	x.innerHTML = "safi rah tfa " + y;
-	fetch("http://45.32.235.105:5000/logger_end?id="+y).then(function(response) {
-		console.log(response);
-	});
+	if (y = "")
+		x.innerHTML = "iliass dir 3a9lk ";
+	else
+	{
+		x.innerHTML = "safi rah tfa " + y;
+		fetch("http://45.32.235.105:5000/logger_end?id="+y).then(function(response) {
+			console.log(response);
+		});
+	}
 	setTimeout(hi,2000);
 }
 function hi() {
