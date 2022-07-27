@@ -1,0 +1,139 @@
+:root
+{
+	--nice-padding: 1em;
+	--decent-font-size: 1.25rem;
+	--navbar-padding: 1em;
+}
+@media only screen and (max-width: 600px) {
+	:root
+	{
+		--nice-padding: 1em;
+		--decent-font-size: 2.25rem;
+		--navbar-padding: 2em;
+	}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+html {
+	box-sizing: border-box;
+}
+  
+.container
+{
+	display: flex;
+  	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 70vh;
+}
+
+.button
+{
+	color: #fff;
+	background-color:  #2ae1ee66;
+	border-radius: 5px;
+	padding: var(--nice-padding);
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+	
+}
+
+.button:focus
+{
+	color: #fff;
+	background-color:  #2ae1ee66;
+	border-radius: 5px;
+	padding: var(--nice-padding);
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+}
+.button:hover
+{
+	color: #fff;
+	background-color:  #5fc2ecda;
+	border-radius: 5px;
+	padding: var(--nice-padding);
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+	
+}
+.button:active
+{
+	color: #2ae1ee66;
+	background-color:  #043e4366;
+	border-radius: 5px;
+	padding: var(--nice-padding);
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+	
+}
+.input
+{
+	width: 30%;
+	height: 2em;
+	border-radius: 5px;
+	border: 3px solid #2ae1ee66;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.navbar-menu
+{
+	display: flex;
+  	justify-content: center;
+	padding: var(--navbar-padding);
+	align-items: center;
+	background-color:  #2ae1ee66;
+	box-shadow: #7a7d7d66 0px 0px 5px;
+}
+
+.nav-item a
+{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1em;
+	padding: var(--navbar-padding);
+	border-radius: 2px;
+	color: white;
+	
+}
+
+.nav-item{
+	
+	list-style: none;
+}
+.nav-item a:hover
+{
+	background-color: white;
+	color: #2ae1ee66;
+}
+
+.nav-item a:active
+{
+	background-color: #5fc2ecda;
+	color: white;
+}
+
+/* header */
+
+.header
+{
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+	margin-bottom: 8em;
+	color: rgba(41, 39, 39, 0.767);
+}
