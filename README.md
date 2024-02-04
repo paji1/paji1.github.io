@@ -1,1 +1,0 @@
-# paji1.github.io
