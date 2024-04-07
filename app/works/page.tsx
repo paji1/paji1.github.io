@@ -175,7 +175,7 @@ const page = () => {
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
 										<Link
-											href="https://github.com/chourafiDev/nft-marketplace"
+											href="https://github.com/paji1/nft-marketplace"
 											legacyBehavior
 										>
 											<a target="_blank" rel="noreferrer">
@@ -202,9 +202,7 @@ const page = () => {
 				<div className="col-span-2 lg:order-2 order-1">
 					<AnimatedCard>
 						<div className="flex items-center justify-center md:gap-8 gap-4">
-
-              <Lamptitle text="All Projects"/>
-								
+							<Lamptitle text="All Projects" />
 						</div>
 					</AnimatedCard>
 
@@ -271,7 +269,7 @@ const page = () => {
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
 											<Link
-												href="https://github.com/chourafiDev/BOOKING_UI"
+												href="https://github.com/paji1/BOOKING_UI"
 												legacyBehavior
 											>
 												<a
@@ -358,7 +356,7 @@ const page = () => {
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
 											<Link
-												href="https://github.com/chourafiDev/videoly"
+												href="https://github.com/paji1/videoly"
 												legacyBehavior
 											>
 												<a
@@ -445,7 +443,7 @@ const page = () => {
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
 											<Link
-												href="https://github.com/chourafiDev/travel_ui"
+												href="https://github.com/paji1/travel_ui"
 												legacyBehavior
 											>
 												<a
@@ -540,7 +538,7 @@ const page = () => {
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
 											<Link
-												href="https://github.com/chourafiDev/blog"
+												href="https://github.com/paji1/blog"
 												legacyBehavior
 											>
 												<a
@@ -629,7 +627,7 @@ const page = () => {
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
 											<Link
-												href="https://github.com/chourafiDev/POS_RESTAURANT_UI"
+												href="https://github.com/paji1/POS_RESTAURANT_UI"
 												legacyBehavior
 											>
 												<a
@@ -691,7 +689,7 @@ const page = () => {
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
 										<Link
-											href="https://github.com/chourafiDev/redux-toolkit-shopping-cart"
+											href="https://github.com/paji1/redux-toolkit-shopping-cart"
 											legacyBehavior
 										>
 											<a target="_blank" rel="noreferrer">
@@ -736,7 +734,7 @@ const page = () => {
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
 										<Link
-											href="https://github.com/chourafiDev/weather-app"
+											href="https://github.com/paji1/weather-app"
 											legacyBehavior
 										>
 											<a target="_blank" rel="noreferrer">
