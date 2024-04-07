@@ -73,7 +73,7 @@ const page = () => {
             <li className="md:w-[4rem] md:h-[4rem] w-16 h-16 z-10">
               <Link
                 target="_blank"
-                href="#"
+                href="https://www.instagram.com/tahaelmouhajir5/"
                 className="font-medium rounded-full text-base w-full h-full btn-white bg-gradient flex justify-center items-center"
               >
                 <FaInstagram className="text-2xl" />

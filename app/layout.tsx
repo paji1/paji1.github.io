@@ -7,24 +7,21 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Taha Elmouhajir | Home",
-  description:
-    "Passionate Full Stack Web and software Developer. Transforming ideas into seamless digital experiences. Expertise in front-end design, back-end development, and software creation. Let's innovate together!",
+	title: "Taha Elmouhajir | Home",
+	description:
+		"Passionate Full Stack Web and software Developer. Transforming ideas into seamless digital experiences. Expertise in front-end design, back-end development, and software creation. Let's innovate together!",
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode;
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <Head>
-      <link rel="shortcut icon" href="/static/favicon.ico" />
-    </Head>
-      <body className={`${inter.className} bg-dark custom-container`}>
-        <AppLayout>{children}</AppLayout>
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className={`${inter.className} bg-dark custom-container`}>
+				<AppLayout>{children}</AppLayout>
+			</body>
+		</html>
+	);
 }

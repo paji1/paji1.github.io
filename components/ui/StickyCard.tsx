@@ -36,7 +36,7 @@ const StickyCard = () => {
             <li className="w-14 h-14 z-10">
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/abdelmonaime-chourafi-1913961b2/"
+                href="https://www.linkedin.com/in/tel-mouh/"
                 className="font-medium rounded-full text-base w-full h-full btn-white bg-gradient flex justify-center items-center"
               >
                 <FaLinkedinIn className="text-xl" />
@@ -45,7 +45,7 @@ const StickyCard = () => {
             <li className="w-14 h-14 z-10">
               <Link
                 target="_blank"
-                href="https://github.com/chourafiDev"
+                href="https://github.com/paji1"
                 className="font-medium rounded-full text-base w-full h-full btn-white bg-gradient flex justify-center items-center"
               >
                 <FaGithub className="text-xl" />
@@ -54,7 +54,7 @@ const StickyCard = () => {
             <li className="w-14 h-14 z-10">
               <Link
                 target="_blank"
-                href="https://www.instagram.com/chourafi_abdelmonaime/?hl=en"
+                href="https://www.instagram.com/tahaelmouhajir5/"
                 className="font-medium rounded-full text-base w-full h-full btn-white bg-gradient flex justify-center items-center"
               >
                 <FaInstagram className="text-xl" />
