@@ -17,7 +17,7 @@ const ContactsInfoCard = () => {
           <div className="space-y-[3px] z-10">
             <p className="text-lightest-slate text-sm">Email address</p>
             <p className="text-lightest-slate/60 text-sm">
-            contact@tahaelmouhajir.me
+            pajinew@gmail.com
             </p>
           </div>
         </li>
