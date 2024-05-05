@@ -12,7 +12,12 @@ import { BsFillCaretRightFill } from "react-icons/bs";
 import StickyCard from "@/components/ui/StickyCard";
 import Link from "next/link";
 import { Lamptitle } from "@/components/ui/AnimatedTitle";
+import { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+	title: "About"
+}
 const Page = () => {
 	return (
 		<main className="lg:my-16 my-10">

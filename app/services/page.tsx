@@ -11,7 +11,7 @@ import { BsCodeSlash, BsLayoutWtf } from "react-icons/bs";
 import { LuLayoutPanelLeft } from "react-icons/lu";
 
 export const metadata: Metadata = {
-  title: "Taha Elmouhajir | Services",
+  title: "Services",
 };
 
 const page = () => {

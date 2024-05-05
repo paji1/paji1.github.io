@@ -9,7 +9,7 @@ import AnimatedCard from "@/components/ui/AnimatedCard";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Taha Elmouhajir | Contact Me",
+  title: "Contact",
 };
 
 const page = () => {

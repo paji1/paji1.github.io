@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tahaelmouhajir.me/
+
+# Sitemaps
+Sitemap: https://www.tahaelmouhajir.me/sitemap.xml

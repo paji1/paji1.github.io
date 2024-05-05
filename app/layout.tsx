@@ -7,7 +7,10 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Taha Elmouhajir | Home",
+	title: {
+		default: "Home",
+		template: "%s - Taha ELmouhajir",
+	},
 	description:
 		"Passionate Full Stack Web and software Developer. Transforming ideas into seamless digital experiences. Expertise in front-end design, back-end development, and software creation. Let's innovate together!",
 };

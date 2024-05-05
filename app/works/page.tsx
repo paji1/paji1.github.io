@@ -22,7 +22,7 @@ import { BsBoxArrowUpRight, BsCaretRight, BsGithub } from "react-icons/bs";
 import { Lamptitle } from "@/components/ui/AnimatedTitle";
 
 export const metadata: Metadata = {
-	title: "Taha Elmouhajir | Projects",
+	title: "Projects",
 };
 
 const page = () => {
