@@ -105,14 +105,8 @@ const page = () => {
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
-										<Link
-											href="https://github.com/paji1/PongGame"
-											legacyBehavior
-										>
-											<a target="_blank" rel="noreferrer">
-												<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-											</a>
-										</Link>
+										
+										
 									</li>
 									<li>
 										<Link
@@ -174,14 +168,8 @@ const page = () => {
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
-										<Link
-											href="https://github.com/paji1/nft-marketplace"
-											legacyBehavior
-										>
-											<a target="_blank" rel="noreferrer">
-												<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-											</a>
-										</Link>
+										
+										
 									</li>
 									<li>
 										<Link
@@ -268,17 +256,7 @@ const page = () => {
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
-											<Link
-												href="https://github.com/paji1/BOOKING_UI"
-												legacyBehavior
-											>
-												<a
-													target="_blank"
-													rel="noreferrer"
-												>
-													<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-												</a>
-											</Link>
+											
 										</li>
 										<li>
 											<Link
@@ -355,17 +333,7 @@ const page = () => {
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
-											<Link
-												href="https://github.com/paji1/videoly"
-												legacyBehavior
-											>
-												<a
-													target="_blank"
-													rel="noreferrer"
-												>
-													<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-												</a>
-											</Link>
+											
 										</li>
 										<li>
 											<Link
@@ -442,17 +410,7 @@ const page = () => {
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
-											<Link
-												href="https://github.com/paji1/travel_ui"
-												legacyBehavior
-											>
-												<a
-													target="_blank"
-													rel="noreferrer"
-												>
-													<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-												</a>
-											</Link>
+											
 										</li>
 										<li>
 											<Link
@@ -537,17 +495,7 @@ const page = () => {
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
-											<Link
-												href="https://github.com/paji1/blog"
-												legacyBehavior
-											>
-												<a
-													target="_blank"
-													rel="noreferrer"
-												>
-													<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-												</a>
-											</Link>
+											
 										</li>
 										<li>
 											<Link
@@ -626,17 +574,7 @@ const page = () => {
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 										<li>
-											<Link
-												href="https://github.com/paji1/POS_RESTAURANT_UI"
-												legacyBehavior
-											>
-												<a
-													target="_blank"
-													rel="noreferrer"
-												>
-													<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-												</a>
-											</Link>
+											
 										</li>
 										<li>
 											<Link
@@ -688,14 +626,8 @@ const page = () => {
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
-										<Link
-											href="https://github.com/paji1/redux-toolkit-shopping-cart"
-											legacyBehavior
-										>
-											<a target="_blank" rel="noreferrer">
-												<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-											</a>
-										</Link>
+										
+										
 									</li>
 									<li>
 										<Link
@@ -733,14 +665,7 @@ const page = () => {
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
 									<li>
-										<Link
-											href="https://github.com/paji1/weather-app"
-											legacyBehavior
-										>
-											<a target="_blank" rel="noreferrer">
-												<BsGithub className="text-2xl hover:text-green duration-150 ease-in" />
-											</a>
-										</Link>
+										
 									</li>
 									<li>
 										<Link

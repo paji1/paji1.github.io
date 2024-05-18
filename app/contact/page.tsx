@@ -7,6 +7,7 @@ import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { BsHandIndexThumb } from "react-icons/bs";
 import AnimatedCard from "@/components/ui/AnimatedCard";
 import { Metadata } from "next";
+import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -94,23 +95,7 @@ const page = () => {
           Let’s work <span className="text-green">together.</span>
         </h1>
 
-        <form className="flex flex-col gap-3 md:mt-8 mt-12">
-          <input type="text" placeholder="Name *" className="z-10 input" />
-          <input type="text" placeholder="Email *" className="z-10 input" />
-          <input
-            type="text"
-            placeholder="Your Subject *"
-            className="z-10 input"
-          />
-          <textarea
-            placeholder="Your Message *"
-            className="z-10 input"
-            rows={6}
-          ></textarea>
-          <button className="btn btn-white bg-gradient z-10">
-            Send Message
-          </button>
-        </form>
+        <ContactForm />
       </AnimatedCard>
     </main>
   );
