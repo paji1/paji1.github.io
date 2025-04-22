@@ -75,7 +75,7 @@ export const FloatingNav = ({
 					</Link>
 				))}
 				<Link href={"/contact"} className="border text-sm font-medium relative  border-white/[0.2] text-white px-4 py-2 rounded-full">
-					<span>Let's talk</span>
+					<span>Let&apos;s talk</span>
 					<span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-green to-transparent  h-px" />
 				</Link>
 			</motion.div>
