@@ -43,6 +43,13 @@ html {
     rgb(255 255 255 / 1%)
   );
 }
+.bg-gradient-navbar {
+  background: linear-gradient(
+    120deg,
+    rgb(255 255 255 / 12%),
+    rgb(255 255 255 / 1%)
+  );
+}
 
 .card {
   position: relative;

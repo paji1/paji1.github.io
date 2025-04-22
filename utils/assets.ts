@@ -9,6 +9,7 @@ import hand from "/public/assets/imgs/hand.svg";
 import computer from "/public/assets/imgs/computer.svg";
 import nftMarketplace from "/public/assets/imgs/projects/nft-marketplace.png";
 import schoolManagement from "/public/assets/imgs/projects/school-management.png";
+import foodManagement from "/public/assets/imgs/projects/food-project.jpg";
 import tiktok from "/public/assets/imgs/projects/tiktok-clone.png";
 import booking from "/public/assets/imgs/projects/booking.png";
 import travel from "/public/assets/imgs/projects/travel.png";
@@ -28,6 +29,7 @@ export {
   computer,
   nftMarketplace,
   schoolManagement,
+  foodManagement,
   booking,
   tiktok,
   travel,

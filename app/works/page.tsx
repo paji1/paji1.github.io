@@ -4,6 +4,7 @@ import {
 	bg1,
 	blog,
 	booking,
+	foodManagement,
 	nftMarketplace,
 	person4,
 	pos,
@@ -35,14 +36,14 @@ const page = () => {
 							<Image src={bg1} alt="bg1" className="bg-card" />
 
 							<Link
-								href="https://nord-school.vercel.app/admin/dashboard"
+								href="https://xfood.xelora.tech/"
 								target="_blank"
 								className="relative z-10"
 							>
 								<div className="w-full h-56 rounded-30 overflow-hidden relative group">
 									<div className="absolute top-0 left-0 w-full h-full bg-green/20 z-10 group-hover:bg-transparent duration-500 ease-linear"></div>
 									<Image
-										src={schoolManagement}
+										src={foodManagement}
 										alt="bong-game"
 										fill
 										className="absolute object-fill"
@@ -52,7 +53,7 @@ const page = () => {
 
 							<div className="z-10 relative">
 								<h1 className="text-lightest-slate font-semibold text-xl mb-1 mt-6">
-									Pong Game
+									Xfood
 								</h1>
 								<p
 									className={`${RobotoMono.className} text-green/60 text-[15px] mt-4 z-10 relative`}
@@ -69,7 +70,7 @@ const page = () => {
 									</li>
 									<li className="flex items-center gap-1 mr-3 mb-1">
 										<BsCaretRight className="text-green text-[12px] " />{" "}
-										Frontend: TypeScript / ReactJS
+										Frontend: Nextjs / TypeScript / ReactJS
 									</li>
 									<li className="flex items-center gap-1 mr-3 mb-1">
 										<BsCaretRight className="text-green text-[12px] " />
