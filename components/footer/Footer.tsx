@@ -27,7 +27,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href="/"
+            href="/about"
             className="text-lightest-slate/60 hover:text-lightest-slate duration-300 ease-linear"
           >
             About
@@ -35,7 +35,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href="/"
+            href="/works"
             className="text-lightest-slate/60 hover:text-lightest-slate duration-300 ease-linear"
           >
             Works
@@ -43,7 +43,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href="/"
+            href="/contact"
             className="text-lightest-slate/60 hover:text-lightest-slate duration-300 ease-linear"
           >
             Contact

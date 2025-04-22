@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${inter.className} bg-dark custom-container`}>
+			<body className={`${inter.className} bg-dark custom-container relative lg:max-w-[1600px] max-w-[100%]`}>
 				<AppLayout>{children}</AppLayout>
 			</body>
 		</html>

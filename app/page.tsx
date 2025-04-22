@@ -14,38 +14,10 @@ import AnimatedCard from "@/components/ui/AnimatedCard";
 import { Spotlight } from "@/components/ui/spotlight";
 import { PinContainer } from "@/components/ui/3d-pin";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { IconHome, IconMessage, IconUser, IconDeviceLaptop } from "@tabler/icons-react";
 
-const navItems = [
-    {
-      name: "Home",
-      link: "/",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
-    },
-	{
-	  name: "Contact",
-	  link: "/contact",
-	  icon: (
-		<IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-	  ),
-	},
-	{
-	  name: "Works",
-	  link: "/works",
-	  icon: (
-		<IconDeviceLaptop className="h-4 w-4 text-neutral-500 dark:text-white" />
-	  ),
-	},
-    {
-      name: "About",
-      link: "/about",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
-    },
-  ];
 export default function Home() {
 	return (
 		<main className=" relative mt-6 mb-16 ">
-			      <FloatingNav  navItems={navItems} />
 
 			<Spotlight
 				className="-top-40 z-0 left-0 md:-top-20 md:left-60"
