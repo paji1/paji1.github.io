@@ -7,7 +7,7 @@ const NavLinks = () => {
 	const path = usePathname();
 
 	return (
-		<ul className="lg:flex hidden items-center gap-12 font-normal text-sm ">
+		<ul className="lg:flex hidden items-center gap-12 font-normal text-sm select-none">
 			{navItems.map(({ title, href }, i) => (
 				<li key={i}>
 					<Link
