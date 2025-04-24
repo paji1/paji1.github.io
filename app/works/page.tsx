@@ -21,6 +21,7 @@ import Link from "next/link";
 import React from "react";
 import { BsBoxArrowUpRight, BsCaretRight, BsGithub } from "react-icons/bs";
 import { Lamptitle } from "@/components/ui/AnimatedTitle";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 export const metadata: Metadata = {
 	title: "Projects",
@@ -32,84 +33,103 @@ const page = () => {
 			<section className="grid lg:grid-cols-3 grid-cols-1 lg:gap-6 gap-0">
 				<div className="flex gap-6 lg:flex-col md:flex-row flex-col lg:order-1 order-2 lg:mt-0 mt-8">
 					<AnimatedCard>
-						<div className="card w-full p-5">
-							<Image src={bg1} alt="bg1" className="bg-card" />
-
-							<Link
-								href="https://xfood.xelora.tech/"
-								target="_blank"
-								className="relative z-10"
-							>
-								<div className="w-full h-56 rounded-30 overflow-hidden relative group">
-									<div className="absolute top-0 left-0 w-full h-full bg-green/20 z-10 group-hover:bg-transparent duration-500 ease-linear"></div>
-									<Image
-										src={foodManagement}
-										alt="bong-game"
-										fill
-										className="absolute object-fill"
-									/>
-								</div>
-							</Link>
-
-							<div className="z-10 relative">
-								<h1 className="text-lightest-slate font-semibold text-xl mb-1 mt-6">
-									Xfood
-								</h1>
-								<p
-									className={`${RobotoMono.className} text-green/60 text-[15px] mt-4 z-10 relative`}
+						<CardContainer className=" card w-full p-5">
+							<CardBody className=" relative group/card    w-auto sm:w-[30rem] h-auto   ">
+								<Image
+									src={bg1}
+									alt="bg1"
+									className="bg-card"
+								/>
+								<CardItem
+									translateZ="80"
+									className="w-full mt-4"
 								>
-									Technologies:
-								</p>
+									<Link
+										href="https://xfood.xelora.tech/"
+										target="_blank"
+										className="relative z-10"
+									>
+										<div className="w-full h-56 rounded-30 overflow-hidden relative group">
+											<div className="absolute top-0 left-0 w-full h-full bg-green/20 z-10 group-hover:bg-transparent duration-500 ease-linear"></div>
+											<Image
+												src={foodManagement}
+												alt="bong-game"
+												fill
+												className="absolute object-fill"
+											/>
+										</div>
+									</Link>
+								</CardItem>
 
-								<ul
-									className={`${RobotoMono.className} flex flex-wrap text-lightest-slate/50 text-[13px] lg:text-sm mt-2`}
-								>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										Backend: NestJS
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />{" "}
-										Frontend: Nextjs / TypeScript / ReactJS
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										Database: PostgreSQL
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />{" "}
-										Ant Deployment: Docker and Docker
-										Compose
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										Security: Password hashing, SQL
-										injection protection, server-side
-										validation
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										User Account: OAuth, Two-factor
-										authentication, Friend system
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										Chat: Public/private channels, Direct
-										messaging, Channel permissions
-									</li>
-									<li className="flex items-center gap-1 mr-3 mb-1">
-										<BsCaretRight className="text-green text-[12px] " />
-										Game: Live Pong gameplay, Matchmaking
-										system, Customization options
-									</li>
-								</ul>
+								<div className="z-10 relative">
+									<CardItem
+										as={"h1"}
+										translateZ="50"
+										className="text-lightest-slate font-semibold text-xl mb-1 mt-6"
+									>
+										Xfood
+									</CardItem>
+									<CardItem
+										as={"p"}
+										translateZ="30"
+										className={`${RobotoMono.className} text-green/60 text-[15px] mt-4 z-10 relative`}
+									>
+										Technologies:
+									</CardItem>
 
-								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-									<li>
-										
-										
-									</li>
-									<li>
+									<CardItem
+										as={"ul"}
+										translateZ="30"
+										className={`${RobotoMono.className} flex flex-wrap text-lightest-slate/50 text-[13px] lg:text-sm mt-2`}
+									>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											Backend: NestJS
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />{" "}
+											Frontend: Nextjs / TypeScript /
+											ReactJS
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											Database: PostgreSQL
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />{" "}
+											Ant Deployment: Docker and Docker
+											Compose
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											Security: Password hashing, SQL
+											injection protection, server-side
+											validation
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											User Account: OAuth, Two-factor
+											authentication, Friend system
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											Chat: Public/private channels,
+											Direct messaging, Channel
+											permissions
+										</li>
+										<li className="flex items-center gap-1 mr-3 mb-1">
+											<BsCaretRight className="text-green text-[12px] " />
+											Game: Live Pong gameplay,
+											Matchmaking system, Customization
+											options
+										</li>
+									</CardItem>
+
+									<CardItem
+										as={"div"}
+										translateZ="30"
+										className="flex justify-end  w-full text-lightest-slate/50 gap-4 mt-5"
+									>
 										<Link
 											href="https://yanerp-app.vercel.app/admin/dashboard"
 											legacyBehavior
@@ -118,10 +138,10 @@ const page = () => {
 												<BsBoxArrowUpRight className="text-2xl hover:text-green duration-150 ease-in" />
 											</a>
 										</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
+									</CardItem>
+								</div>
+							</CardBody>
+						</CardContainer>
 					</AnimatedCard>
 
 					<AnimatedCard>
@@ -168,10 +188,7 @@ const page = () => {
 								</ul>
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-									<li>
-										
-										
-									</li>
+									<li></li>
 									<li>
 										<Link
 											href="https://nft-marketplace-five-alpha.vercel.app"
@@ -256,9 +273,7 @@ const page = () => {
 									</ul>
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-										<li>
-											
-										</li>
+										<li></li>
 										<li>
 											<Link
 												href="https://booking-app-sage-sigma.vercel.app/"
@@ -333,9 +348,7 @@ const page = () => {
 									</ul>
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-										<li>
-											
-										</li>
+										<li></li>
 										<li>
 											<Link
 												href="https://videoly.vercel.app/"
@@ -410,9 +423,7 @@ const page = () => {
 									</ul>
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-										<li>
-											
-										</li>
+										<li></li>
 										<li>
 											<Link
 												href="https://elite-travel.vercel.app/"
@@ -495,9 +506,7 @@ const page = () => {
 									</ul>
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-										<li>
-											
-										</li>
+										<li></li>
 										<li>
 											<Link
 												href="https://zonexa.vercel.app/"
@@ -574,9 +583,7 @@ const page = () => {
 									</ul>
 
 									<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-										<li>
-											
-										</li>
+										<li></li>
 										<li>
 											<Link
 												href="https://pos-restaurant-plum.vercel.app/en/dashboard"
@@ -626,10 +633,7 @@ const page = () => {
 								</ul>
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-									<li>
-										
-										
-									</li>
+									<li></li>
 									<li>
 										<Link
 											href="https://shopping-cart-ten-chi.vercel.app/"
@@ -665,9 +669,7 @@ const page = () => {
 								</ul>
 
 								<ul className="flex justify-end text-lightest-slate/50 gap-4 mt-5">
-									<li>
-										
-									</li>
+									<li></li>
 									<li>
 										<Link
 											href="https://weather-app-delta-roan.vercel.app/"
