@@ -21,7 +21,7 @@ const ParallaxText = () => {
 			<div className="flex items-center gap-2 mr-2">
 				<GoDotFill className="text-lightest-slate/60" />
 				<p className="text-white/40 uppercase text-xs tracking-widest">
-					Hi there, I'm Taha
+					Hi there, I&apos;m Taha
 				</p>
 				<p className="text-white/40 uppercase text-xs tracking-widest">
 					<FlipWords words={words} /> <br />
