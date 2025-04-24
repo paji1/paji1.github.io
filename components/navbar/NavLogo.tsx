@@ -5,7 +5,7 @@ import React from "react";
 
 const NavLogo = () => {
 	return (
-		<Link href="/" className="text-white">
+		<Link href="/" className="text-white select-none">
 			<Image
 				src={logo}
 				alt="logo"
